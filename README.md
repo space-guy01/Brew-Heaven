@@ -10,9 +10,8 @@ A modern, responsive website for Café Bliss to showcase our menu, location, and
 
 ## Technologies Used
 
-- HTML, CSS, JavaScript
-- Bootstrap for responsive design
-- Node.js for backend (optional)
+- HyperTextMarkupLanguage
+- Cascading-Style-Sheets
 
 ## Installation
 
