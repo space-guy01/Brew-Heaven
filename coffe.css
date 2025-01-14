@@ -1,0 +1,304 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: white;
+}
+
+.margin {
+  margin: 10px;
+}
+
+.navbar {
+  height: 50px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.coffee-logo {
+  font-size: 2rem;
+  margin: 10px;
+  color: #fae9c1;
+  margin-left: 30px;
+}
+
+.company {
+  margin-left: 2px;
+  font-size: 1.1rem;
+}
+
+.nav-options {
+  width: 80%;
+  color: #ffe098;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.search {
+  color: black;
+  margin: 0;
+  font-size: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.input-se {
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  height: 28px;
+  padding: 2px;
+  color: black;
+  background-color: #fae9c1;
+}
+
+.search-icon {
+  height: 30px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 168, 117);
+  width: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  border: none;
+  outline: none;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.your-account {
+  display: flex;
+  align-items: center;
+  right: 10px;
+  width: 15%;
+}
+
+.profile {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: white 2px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.your-name {
+  display: flex;
+  justify-content: end;
+}
+
+/* Hero Section */
+
+.tagline {
+  height: 568px;
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  font-size: 2.5rem;
+  background-image: url(https://www.luxcafeclub.com/cdn/shop/articles/Minimalist_Modern_Coffee_Shop_1_1200x1200.png?v=1713243107);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.line {
+  color: rgb(253, 232, 213);
+  height: 50px;
+}
+
+.random-text {
+  font-size: 1rem;
+  width: 400px;
+  text-align: center;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/*About Section*/
+
+.about {
+  display: flex;
+  height: 400px;
+  background-color: #ffe098;
+  padding: 30px;
+  justify-content: space-between;
+}
+
+.text-about h2,
+p {
+  color: darkcyan;
+  width: 700px;
+  margin-top: 10px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+.interior {
+  height: 400px;
+  width: 530px;
+  background-image: url("https://inspirationdesignbooks.com/blog/wp-content/uploads/2018/10/World%E2%80%99s-best-coffee-shops-for-Design-Lovers-1.jpg");
+  background-size: cover;
+  margin-right: 30px;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+/* whats on menu*/
+
+.foods {
+  display: flex;
+  height: 900px;
+  width: 100%;
+  background-color: #ffe098;
+  text-align: center;
+}
+
+.heading {
+  height: 100px;
+  background-color: #ffe098;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 700;
+}
+
+.food-photo {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photo1 {
+  background-image: url("https://images.squarespace-cdn.com/content/v1/62330a82200a5d4bcb765699/ba7c54ee-473d-44f4-a607-1bb3416288b2/cafe44_054.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 30px;
+  color: white;
+  font-size: 70px;
+  border: 6px solid white;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.photo1:hover {
+  transition: all 0.25s ease-out;
+  scale: 1.05;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.photo2 {
+  background-image: url("https://img.freepik.com/free-photo/high-angle-shot-coffee-beans-jars-breakfast-table-with-some-pastry_181624-5864.jpg?semt=ais_hybrid");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 30px;
+  color: white;
+  font-size: 70px;
+  border: 6px solid white;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 40px;
+  left: 40px;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.photo2:hover {
+  transition: all 0.25s ease-out;
+  scale: 1.05;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.photo3 {
+  background-image: url("https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/8c/c8/bb/delicious-food.jpg?w=600&h=400&s=1");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 30px;
+  color: white;
+  font-size: 70px;
+  border: 6px solid white;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.photo3:hover {
+  transition: all 0.25s ease-out;
+  scale: 1.05;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.photo4 {
+  background-image: url("https://img.bestrecipes.com.au/NJJU-8R3/w643-h428-cfill-q90/br/2019/05/pumpkin-pancakes-951968-1.jpg");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 30px;
+  color: white;
+  font-size: 70px;
+  border: 6px solid white;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 50px;
+  left: 100px;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.photo4:hover {
+  transition: all 0.25s ease-out;
+  scale: 1.05;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
+}
+
+.photo5 {
+  background-image: url("https://media.istockphoto.com/id/1127940785/photo/stacked-vegetarian-sandwiches-of-arugula-artichoke-sun-dried-tomato-pesto.jpg?s=612x612&w=0&k=20&c=m0NkVUEbI_Q4sBcVc270-DWzaZ-lSKottYyqS-smqIA=");
+  height: 300px;
+  width: 300px;
+  background-size: cover;
+  margin-left: 30px;
+  color: white;
+  font-size: 50px;
+  border: 6px solid white;
+  border-radius: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 100;
+  left: 400px;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+}
+
+.photo5:hover {
+  transition: all 0.25s ease-out;
+  scale: 1.05;
+  box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
+}
