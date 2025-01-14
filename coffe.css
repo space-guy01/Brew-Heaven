@@ -302,3 +302,57 @@ h2 {
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
+
+/* Contact Section */
+
+.contact-sec {
+  height: 350px;
+  width: 100%;
+  background-color: #ffe098;
+  color: white;
+}
+
+.contact-sec h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.info-cont {
+  padding: 20px;
+  height: 250px;
+  font-size: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.para {
+  color: rgb(163, 163, 163);
+}
+
+/* Footer */
+
+.about-section {
+  background-color: #ffc94b;
+  height: 100px;
+}
+
+.about-section h1 {
+  text-align: center;
+}
+
+.about-us {
+  display: flex;
+  justify-content: center;
+}
+
+.copyright {
+  background-color: #ffc94b;
+  height: 75px;
+}
+
+.real-copy {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
