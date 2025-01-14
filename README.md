@@ -1,4 +1,4 @@
-# Café Bliss Website
+# Brew Heaven Website
 
 A modern, responsive website for Café Bliss to showcase our menu, location, and booking system.
 
