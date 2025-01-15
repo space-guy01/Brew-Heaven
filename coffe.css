@@ -195,10 +195,10 @@ h2 {
   justify-content: center;
   align-items: center;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+  transition: all 0.25s ease-out;
 }
 
 .photo1:hover {
-  transition: all 0.25s ease-out;
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
@@ -220,10 +220,10 @@ h2 {
   top: 40px;
   left: 40px;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+  transition: all 0.25s ease-out;
 }
 
 .photo2:hover {
-  transition: all 0.25s ease-out;
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
@@ -245,10 +245,10 @@ h2 {
   top: 50px;
   left: 100px;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+  transition: all 0.25s ease-out;
 }
 
 .photo3:hover {
-  transition: all 0.25s ease-out;
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
@@ -270,10 +270,10 @@ h2 {
   top: 50px;
   left: 100px;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+  transition: all 0.25s ease-out;
 }
 
 .photo4:hover {
-  transition: all 0.25s ease-out;
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
@@ -295,10 +295,10 @@ h2 {
   top: 100;
   left: 400px;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 1);
+  transition: all 0.25s ease-out;
 }
 
 .photo5:hover {
-  transition: all 0.25s ease-out;
   scale: 1.05;
   box-shadow: 8px 15px 15px rgba(0, 0, 0, 0.5);
 }
